@@ -9,6 +9,7 @@ const Navbar = (props) => {
     const logout=()=>{
       localStorage.removeItem('token')
       navigate('/login')
+      props.showAlert("Successfully Logout","success")
     }
     useEffect(()=>{
         console.log(location.pathname)

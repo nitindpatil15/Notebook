@@ -37,10 +37,12 @@ const Register = (props) => {
 
   return (
     <>
-      <header className="or my-4">
+      <header>
         <br />
-        <div className="text-center my-2"><i class="fa-solid fa-user-plus" style={{fontSize:"40px"}}></i></div>
-        <form onSubmit={handleSubmit} className="forregi">
+        <form onSubmit={handleSubmit} className="or">
+        <h1 className="text-center mt-4"><i class="fa-solid fa-user-plus" style={{fontSize:"50px"}}></i></h1>
+        <h5 className="text-center text-primary">Signup</h5>
+        <div className="container">
           <div className="form-group my-2 container">
             <label htmlFor="name" style={{fontSize:'20px'}}>
               Name<span className="text-danger">*</span>
@@ -96,12 +98,11 @@ const Register = (props) => {
             Submit
           </button>
           <br />
-          <Link to="/login" style={{fontSize:'20px'}} className="nav-item text-decoration-none text-secondary">
-            Already a user? <span className="text-dark">Login here</span>
+          <Link to="/login" style={{fontSize:'15px'}} className="nav-item my-2 text-decoration-none text-dark">
+            Already a user? <span className="text-primary">Login here</span>
           </Link>
+          </div><br />
           </div>
-          <br />
-          <div className="my-5"></div>
         </form>
       </header>
     </>
