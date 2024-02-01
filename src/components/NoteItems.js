@@ -9,10 +9,10 @@ const NoteItems = (props) => {
   return (
     <div className="col-md-4 my-3">
       <div className="card my-3">
-        <div className="card-body">
-          <h5 className="card-title">{note.title}</h5>
-          <p className="card-text">{note.description}</p>
-          <p className="card-text">{note.tag}</p>
+        <div className="card-body bg-light">
+          <h5 className="card-title"><i>{note.title}</i></h5>
+          <p className="card-text"><i>{note.description}</i></p>
+          <p className="card-text"><i>{note.tag}</i></p>
           <Link to ="">
           <i className="fa-regular fa-pen-to-square mx-2" onClick={()=>{updateNote(note)}}></i>
           </Link>

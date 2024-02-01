@@ -29,7 +29,7 @@
 }
 /* register css */
 .or{
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.474);
     position: absolute;
     top: 60%;
     left: 50%;

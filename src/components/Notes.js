@@ -4,7 +4,7 @@ import NoteItems from "./NoteItems";
 import AddNote from "./AddNote";
 import { useNavigate } from "react-router-dom";
 
-const Notes = () => {
+const Notes = (props) => {
   const Context = useContext(noteContext);
   const { notes, getnotes,updatenote} = Context;
 
@@ -17,6 +17,7 @@ const Notes = () => {
       getnotes();
     }
     else{
+      props.showAlert("Login to Continue iNotebook" ,"success")
       navigate('/login')
     }
     

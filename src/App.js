@@ -29,7 +29,7 @@ function App() {
           <Alert alert={alert}/>
           <div className="container">
             <Routes>
-              <Route path="/" element={<Home />} showAlert={showAlert} />
+              <Route path="/" element={<Home showAlert={showAlert}/>}  />
               <Route path="/About" element={<About showAlert={showAlert}/>} />
               <Route path="/login" element={<Login showAlert={showAlert}/>} />
               <Route path="/signup" element={<Register showAlert={showAlert}/>} />
