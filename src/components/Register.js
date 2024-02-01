@@ -39,9 +39,9 @@ const Register = (props) => {
     <>
       <header className="or my-4">
         <br />
-        <h1 className="text-center my-3"><i class="fa-solid fa-user-plus"></i></h1>
+        <div className="text-center my-2"><i class="fa-solid fa-user-plus" style={{fontSize:"40px"}}></i></div>
         <form onSubmit={handleSubmit} className="forregi">
-          <div className="form-group my-4 container">
+          <div className="form-group my-2 container">
             <label htmlFor="name" style={{fontSize:'20px'}}>
               Name<span className="text-danger">*</span>
             </label>
@@ -64,7 +64,7 @@ const Register = (props) => {
             <input
               type="email"
               name="email"
-              className="form-control f my-3"
+              className="form-control f my-2"
               defaultValue={createuser.email}
               placeholder="Enter Email Address"
               id="email"
@@ -82,7 +82,7 @@ const Register = (props) => {
             <input
               type="password"
               name="password"
-              className="form-control f my-3"
+              className="form-control f my-2"
               defaultValue={createuser.password}
               placeholder="Enter Password"
               id="password"
