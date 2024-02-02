@@ -3,6 +3,7 @@ import noteContext from "../context/noteContext";
 import NoteItems from "./NoteItems";
 import AddNote from "./AddNote";
 import { useNavigate } from "react-router-dom";
+import "./nav.css"
 
 const Notes = (props) => {
   const Context = useContext(noteContext);
@@ -40,6 +41,7 @@ const Notes = (props) => {
   return (
     <>
       <AddNote />
+
       <button
         type="button"
         ref={ref}
@@ -122,12 +124,12 @@ const Notes = (props) => {
           </div>
         </div>
       </div>
-      <div className=" container row my-3">
+      <div className=" container row my-3 note">
         <h1>Your Notes</h1>
         {notes.length===0 && <h4 className="text-center mt-3">No Notes to Display</h4>}
         {notes.map((notes) => {
           return (
-            <NoteItems key={notes._id} updateNote={updateNote} note={notes} />
+            <NoteItems  key={notes._id} updateNote={updateNote} note={notes} />
           );
         })}
       </div>

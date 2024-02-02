@@ -1,66 +1,80 @@
-.note{
-    font-size: 22px;
-    margin-left: 50px;
+.title{
+  font-size: 22px;
+  margin-left: 50px;
 }
-.form{
-    margin-left: 60%;
+.form {
+  margin-left: 60%;
 }
-.search{
-    margin-left: 3%;
+.search {
+  margin-left: 3%;
 }
-.form-control{
-    width: 70%;
+.form-control {
+  width: 70%;
 }
-.b{
-    padding: 3%;
+.b {
+  padding: 3%;
 }
 
 /* login css */
-#login{
-    border: 2px solid rgba(255, 255, 255, 0.474);
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 315px;
-    width: 45%;
-    height: 530px;
-   background-color: rgba(59, 49, 49, 0.12);
+#login {
+  border: 2px solid rgba(255, 255, 255, 0.474);
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 315px;
+  width: 45%;
+  height: 530px;
+  background-color: rgba(59, 49, 49, 0.12);
 }
 /* register css */
-.or{
-    border: 2px solid rgba(255, 255, 255, 0.474);
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 315px;
-    width: 45%;
-    background-color: rgba(59, 49, 49, 0.12);
+.or {
+  border: 2px solid rgba(255, 255, 255, 0.474);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 315px;
+  width: 45%;
+  background-color: rgba(59, 49, 49, 0.12);
 }
-.fa-user-plus{
-    margin-top: 2%;
-    margin-bottom: 0%;
+.fa-user-plus {
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
-
 
 /* Register and login input  */
-.f{
-    width: 100%;
+.f {
+  width: 100%;
 }
-.log{
-    margin-right: 7%;
+.log {
+  margin-right: 7%;
 }
-.out{
-    position: relative;
-    left: 75%;
-}
-
-.img{
-    width: 15%;
-    height: auto;
+.out {
+  position: relative;
+  left: 75%;
 }
 
-.nav-link{
-    font-size: 22px;
+.img {
+  width: 15%;
+  height: auto;
+}
+
+.nav-link {
+  font-size: 22px;
+}
+
+/* Add note */
+.add {
+  border: 2px solid rgba(255, 255, 255, 0.474);
+  min-width: 315px;
+  width:100%;
+  background-color: rgba(59, 49, 49, 0.12);
+}
+
+.note {
+  border: 2px solid rgba(255, 255, 255, 0.474);
+  min-width: 315px;
+  margin-left: 0%;
+  background-color: rgba(59, 49, 49, 0.12);
 }

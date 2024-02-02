@@ -17,7 +17,7 @@ const Navbar = (props) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand text-primary note" to="/">
+        <Link className="navbar-brand text-primary title" to="/">
           {props.title}
         </Link>
         <button

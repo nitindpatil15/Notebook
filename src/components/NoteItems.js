@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import './nav.css'
 import noteContext from "../context/noteContext";
 
 const NoteItems = (props) => {
