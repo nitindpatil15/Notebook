@@ -8,7 +8,7 @@ const NoteItems = (props) => {
   const{deletenote}=contex
   const { note ,updateNote } = props;
   return (
-    <div className="col-md-4 my-3">
+    <div className="col-md-4 my-3 ">
       <div className="card my-3">
         <div className="card-body bg-light">
           <h5 className="card-title"><i>{note.title}</i></h5>
