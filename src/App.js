@@ -7,7 +7,6 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Alert from "./components/Alert";
 import { useState } from "react";
-import Footer from "./components/Footer";
 
 
 
@@ -40,7 +39,6 @@ function App() {
             </Routes>
           </div>
         </Router>
-        <Footer/>
       </NoteState>
     </>
   );
