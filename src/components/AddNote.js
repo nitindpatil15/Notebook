@@ -18,7 +18,7 @@ let AddNote = (props) => {
     }
   return (
     <div className="container add">
-        <div className='my-3 addnote text-center text-dark mx-2'>ADD A NOTE</div>
+        <div className='my-3 addnote text-center mx-2'><b>ADD A NOTE</b></div>
         <form className='container center my-3 mx-2'>
           <div className="mb-3">
             <label className="form-label" htmlFor="Title"><h4>Title<span className="text-danger">*</span></h4></label>

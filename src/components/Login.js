@@ -97,7 +97,7 @@ const Login = (props) => {
               <Link
                 to="/signup"
                 style={{ fontSize: "15px" }}
-                className="nav-item text-decoration-none text-dark"
+                className="text-decoration-none text-dark"
               >
                 Don't have login?{" "}
                 <span className="text-primary ">Register here</span>

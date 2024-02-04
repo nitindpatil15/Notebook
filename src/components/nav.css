@@ -1,9 +1,10 @@
-.title{
+.title {
   font-size: 22px;
-  margin-left: 50px;
+  position: relative;
+  left: 1%;
 }
 .form {
-  margin-left: 60%;
+  margin-left: -4%;
 }
 .search {
   margin-left: 3%;
@@ -25,7 +26,7 @@
   min-width: 20rem;
   width: 45%;
   /* height: 530px; */
-  background-color: rgba(59, 49, 49, 0.260);
+  background-color: rgba(59, 49, 49, 0.26);
 }
 /* register css */
 .or {
@@ -36,7 +37,7 @@
   transform: translate(-50%, -50%);
   width: 45%;
   min-width: 20rem;
-  background-color: rgba(59, 49, 49, 0.260);
+  background-color: rgba(59, 49, 49, 0.26);
 }
 .fa-user-plus {
   border: 2px solid white;
@@ -53,10 +54,6 @@
 .log {
   margin-right: 7%;
 }
-.out {
-  position: relative;
-  left: 75%;
-}
 
 .img {
   width: 18%;
@@ -70,7 +67,7 @@
 /* Add note */
 .add {
   border: 2px solid rgba(255, 255, 255, 0.474);
-  width:100%;
+  width: 100%;
   min-width: 315px;
   background-color: rgba(59, 49, 49, 0.263);
 }
@@ -81,13 +78,48 @@
   margin-left: 0%;
   background-color: rgba(59, 49, 49, 0.263);
 }
-.getnote{
-    font-size: 30px;
-    min-width: 80px;
-    text-shadow: 1px 1px 2px rgb(242, 24, 24);
+.getnote {
+  font-size: 35px;
+  min-width: 80px;
+  text-shadow: 2px 2px 5px rgb(242, 24, 24);
+  background-color: rgba(240, 248, 255, 0.408);
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.069),
+    rgba(255, 89, 0, 0.172) 10%,
+    rgba(0, 211, 197, 0.172) 15%,
+    rgba(255, 60, 0, 0.172) 20%
+  );
+  animation: gradient-animation;
 }
-.addnote{
-    font-size: 30px;
-    min-width: 80px;
-    text-shadow: 1px 1px 2px rgb(206, 56, 56);
+.addnote {
+  font-size: 35px;
+  min-width: 80px;
+  text-shadow: 2px 2px 5px rgb(206, 56, 56);
+  background-color: rgba(240, 248, 255, 0.408);
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.069),
+    rgba(255, 89, 0, 0.172) 10%,
+    rgba(0, 211, 197, 0.172) 15%,
+    rgba(255, 60, 0, 0.172) 20%
+  );
+  animation: gradient-animation;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Navbar */
+.navbar-nav{
+  margin-left: 73%;
 }

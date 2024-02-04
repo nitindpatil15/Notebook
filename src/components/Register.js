@@ -113,7 +113,7 @@ const Register = (props) => {
               <Link
                 to="/login"
                 style={{ fontSize: "15px" }}
-                className="nav-item my-2 text-decoration-none text-dark"
+                className="my-2 text-decoration-none text-dark"
               >
                 Already a user? <span className="text-primary">Login here</span>
               </Link>
