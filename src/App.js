@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Alert from "./components/Alert";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 
 
@@ -26,6 +27,9 @@ function App() {
       <NoteState showAlert={showAlert}>
         <Router>
           <Navbar title="iNotebook" showAlert={showAlert} />
+          <marquee direction="left" className="text-secondary bg-light">
+            Thanks for Visiting iNotebook ! Feel free to explore and start creating your notes. Check About page for Information.
+          </marquee>
           <Alert alert={alert}/>
           <div className="container">
             <Routes>
@@ -36,6 +40,7 @@ function App() {
             </Routes>
           </div>
         </Router>
+        <Footer/>
       </NoteState>
     </>
   );
