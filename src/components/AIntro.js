@@ -73,8 +73,8 @@ const AIntro = () => {
             <h4 className="text-danger text-center"> *Login and Registration</h4>
           </div>
           <div>
-            <img className="demo demo-img mt-5" src={notes} alt="demo" />
-            <h4 className="text-danger text-center">*Adding Notes and Reading</h4>
+            <img className="demo mt-5" src={notes} alt="demo" />
+            <h4 className="text-danger demo-img ">*Adding Notes and Reading</h4>
           </div>
         </div>
 

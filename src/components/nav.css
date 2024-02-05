@@ -68,7 +68,6 @@
 .add {
   border: 2px solid rgba(255, 255, 255, 0.474);
   width: 100%;
-  margin-top: -3%;
   min-width: 315px;
   background-color: rgba(59, 49, 49, 0.263);
 }
@@ -131,4 +130,7 @@
   width: 75%;
   margin-left: 20%;
   height: 65%;
+}
+.demo-img{
+  margin-left: 35%;
 }
