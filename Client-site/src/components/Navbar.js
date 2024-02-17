@@ -6,7 +6,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 const Navbar = (props) => {
   const navigate = useNavigate();
   let location = useLocation();
-  const logout = () => {
+  const logout = async() => {
     localStorage.removeItem("token");
     navigate("/login");
     props.showAlert("Successfully Logout", "success");

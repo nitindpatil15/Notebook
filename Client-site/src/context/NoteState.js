@@ -3,6 +3,7 @@ import { useState } from "react";
 
 const NoteState = (props) => {
   const host = "http://localhost:5000";
+  // const host = "https://inotebook-backend-jade.vercel.app/";
   const notesinitial = [];
   const [notes, setNotes] = useState(notesinitial);
 
