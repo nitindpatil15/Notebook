@@ -16,7 +16,7 @@ const Register = (props) => {
     const { name, email, password } = createuser;
     try {
       const response = await fetch(
-        `http://localhost:5000/api/auth/createuser/`,
+        `https://notebook-k05h.onrender.com/api/auth/createuser/`,
         {
           method: "POST",
           headers: {
